@@ -43,7 +43,7 @@ jobs:
         run: git push heroku main
       - name: Add postgres plugin
         run: |
-          heroku addons:create heroku-postgresql:agmc-deploy
+          heroku addons:attach heroku-postgresql:agmc-deploy
           heroku config
 #  deploy:
 #    runs-on: ubuntu-latest

@@ -1,1 +1,1 @@
-web: bin/alterra-agmc-deploy
+web: bin/alterra-agmc
